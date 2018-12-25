@@ -1,0 +1,30 @@
+/*.image {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	overflow: auto;
+}*/
+body {
+	background-color: black;
+	background-image: url(river.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p {
+	text-align: center;
+	font-family: 'Charm', cursive;
+	color: red;
+	font-size: 100px;
+}
+.validate {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+}
